@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: kary1552190/demo
 spec:
   type: other
-  lifecycle: experimental
+  lifecycle: unknown
   owner: guests
   dependsOn: ['resource:artists-db']
