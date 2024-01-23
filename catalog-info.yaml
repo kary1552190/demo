@@ -13,7 +13,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: artists-db
-  description: Stores artist details
+  description: xxxxdb
 spec:
   type: database
   owner: team-kary
