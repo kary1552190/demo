@@ -1,11 +1,19 @@
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: demo1
+#   annotations:
+#     github.com/project-slug: kary1552190/demo
+# spec:
+#   type: other
+#   lifecycle: unknown
+#   owner: guests
+#   dependsOn: ['resource:artists-db']
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
-  name: demo1
-  annotations:
-    github.com/project-slug: kary1552190/demo
+  name: artists-db
+  description: Stores artist details
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
-  dependsOn: ['resource:artists-db']
+  type: database
+  owner: team-kary
