@@ -5,7 +5,7 @@ metadata:
   description: Stores artist details
 spec:
   type: database
-  owner: team-a
+  owner: team-b
   system: artist-engagement-portal
 # apiVersion: backstage.io/v1alpha1
 # kind: Component
